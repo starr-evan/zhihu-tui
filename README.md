@@ -4,6 +4,8 @@
 
 <h1 align="center">zhihu-tui</h1>
 
+<p align="center">中文 | <a href="README_EN.md">English</a></p>
+
 > 又一个知乎爬虫,只是个小工具。
 
 在终端里刷知乎的小玩意,平时摸鱼用。写得比较随意,能用就好,有问题欢迎提 issue,也欢迎指点。
