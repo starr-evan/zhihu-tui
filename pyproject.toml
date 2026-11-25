@@ -1,0 +1,23 @@
+[project]
+name = "zhihu-tui"
+version = "0.2.0"
+description = "Browse Zhihu in the terminal"
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+requires-python = ">=3.10"
+dependencies = ["pyzhihu-cli>=0.2.4", "textual>=0.80"]
+
+[project.scripts]
+zh = "zhihu_tui.app:main"
+
+[project.urls]
+Homepage = "https://github.com/starr-evan/zhihu-tui"
+Issues = "https://github.com/starr-evan/zhihu-tui/issues"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["zhihu_tui"]
