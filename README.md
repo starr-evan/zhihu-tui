@@ -1,4 +1,8 @@
-# zhihu-tui
+<p align="center">
+  <img src="docs/logo.png" alt="zhihu-tui" width="128">
+</p>
+
+<h1 align="center">zhihu-tui</h1>
 
 > 又一个知乎爬虫,只是个小工具。
 
@@ -8,13 +12,7 @@
 
 ## 截图
 
-![推荐列表](docs/screenshots/feed.png)
-
-![阅读,浅色](docs/screenshots/reader-light.png)
-
-![阅读,深色](docs/screenshots/reader-dark.png)
-
-![主题选择](docs/screenshots/themes.png)
+![zh 阅读界面](docs/screenshot.png)
 
 ## 给 Agent
 
@@ -29,6 +27,16 @@
 5. 登录成功后执行 zhihu status 确认,再告诉我用 zh 启动,以及 1/2/3 切换标签、n/p 翻页、a 看全部回答、s 打开设置。
 全程不要读取、打印或上传我的 Cookie,凭证只留在 ~/.zhihu-cli。
 ```
+
+## 赞赏
+
+就是个小工具,能帮到你已经很开心了。如果觉得顺手,方便的话可以请我喝杯咖啡,不方便也完全没关系,点个 star 或者提个 issue 一样是很大的鼓励。
+
+<p>
+  <img src="docs/alipay.jpg" alt="支付宝" width="220">
+  &nbsp;&nbsp;
+  <img src="docs/wechat.jpg" alt="微信支付" width="220">
+</p>
 
 ## 能做什么
 
@@ -97,16 +105,6 @@ zh
 4. 所用接口为非官方接口,可能随时变更或失效。账号登录存在被平台限制的风险,由使用者自行承担。
 5. 登录凭证只保存在本机的 `~/.zhihu-cli` 目录,不会上传到任何第三方。
 6. 软件按现状提供,不附带任何明示或暗示的担保。
-
-## 赞赏
-
-就是个小工具,能帮到你已经很开心了。如果觉得顺手,方便的话可以请我喝杯咖啡,不方便也完全没关系,点个 star 或者提个 issue 一样是很大的鼓励。
-
-<p>
-  <img src="docs/alipay.jpg" alt="支付宝" width="220">
-  &nbsp;&nbsp;
-  <img src="docs/wechat.jpg" alt="微信支付" width="220">
-</p>
 
 ## 许可
 
