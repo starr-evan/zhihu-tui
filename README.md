@@ -1,4 +1,8 @@
 <p align="center">
+  <img src="docs/banner.jpg" alt="zhihu-tui">
+</p>
+
+<p align="center">
   <img src="docs/logo.png" alt="zhihu-tui" width="128">
 </p>
 
