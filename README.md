@@ -1,9 +1,5 @@
 <p align="center">
-  <img src="docs/banner.jpg" alt="zhihu-tui">
-</p>
-
-<p align="center">
-  <img src="docs/logo.png" alt="zhihu-tui" width="128">
+  <img src="docs/banner.jpg" alt="zhihu-tui" width="100%">
 </p>
 
 <h1 align="center">zhihu-tui</h1>
@@ -16,7 +12,7 @@
 
 ## 截图
 
-![zh 阅读界面](docs/screenshot.png)
+![zh 阅读界面](docs/screenshot.jpg)
 
 ## 给 Agent
 
