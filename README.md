@@ -6,6 +6,30 @@
 
 命令是 `zh`,界面用 [Textual](https://github.com/Textualize/textual) 搭的,知乎的数据请求直接复用了 [pyzhihu-cli](https://github.com/BAIGUANGMEI/zhihu-cli),站在前人肩膀上。
 
+## 截图
+
+![推荐列表](docs/screenshots/feed.png)
+
+![阅读,浅色](docs/screenshots/reader-light.png)
+
+![阅读,深色](docs/screenshots/reader-dark.png)
+
+![主题选择](docs/screenshots/themes.png)
+
+## 给 Agent
+
+把下面这段话整段复制,粘贴给你的 Agent(Claude Code、Codex 等),它会替你装好并带你登录:
+
+```
+请帮我安装并登录 zhihu-tui(https://github.com/starr-evan/zhihu-tui),按顺序执行:
+1. 确认 Python 3.10 及以上,没有就先装好。
+2. 执行 pipx install git+https://github.com/starr-evan/zhihu-tui;没有 pipx 就先 pip install --user pipx。
+3. 执行 pipx install pyzhihu-cli,得到 zhihu 命令。
+4. 执行 zhihu login --qrcode,把生成的二维码图片 ~/.zhihu-cli/login_qrcode.png 打开给我,我用知乎 App 扫码并确认,最多等 2 分钟,超时就重新生成。
+5. 登录成功后执行 zhihu status 确认,再告诉我用 zh 启动,以及 1/2/3 切换标签、n/p 翻页、a 看全部回答、s 打开设置。
+全程不要读取、打印或上传我的 Cookie,凭证只留在 ~/.zhihu-cli。
+```
+
 ## 能做什么
 
 - 热榜、个性化推荐、收藏夹,三个标签来回切换
